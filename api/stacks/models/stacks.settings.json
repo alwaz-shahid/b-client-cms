@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stacks",
+  "info": {
+    "name": "Stacks"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "positon": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "large",
+        "medium",
+        "small"
+      ]
+    },
+    "richtext": {
+      "type": "richtext"
+    }
+  }
+}
